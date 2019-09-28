@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Bem vindo à enquete</h1>
+        <p>Este é um exemplo de aplicativo de enquete em Django</p>
+        <a href="{% url 'polls:index' %}" class="btn btn-dark">Ver perguntas disponíveis</a>
+    </div>
+</div>
+{% endblock %}
